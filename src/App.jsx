@@ -8,7 +8,7 @@ const [advancedMode, setAdvancedMode] = useState(false);
 // Simple mode state
 const [principal, setPrincipal] = useState(1000);
 const [rate, setRate] = useState(5);
-const [years, setYears] = useState(10);
+const [years, setYears] = useState(5);
 const [compoundDays, setCompoundDays] = useState(365);
 const [chartData, setChartData] = useState([]);
 const [simpleTotal, setSimpleTotal] = useState(0);
